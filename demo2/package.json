@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"tsc -w\" \"live-server --port=9999\""
+    "test": "concurrently \"tsc -w\" \"live-server --port=9999\""
 
   },
   "author": "",
