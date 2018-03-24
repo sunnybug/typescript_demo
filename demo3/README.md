@@ -36,3 +36,5 @@ npm i --save-dev lite-server
 **配置bs-config.json** 
 ### 开始
 npm run start
+
+http://jerryzou.com/posts/vscode-debug-guide/

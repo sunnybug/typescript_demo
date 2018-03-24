@@ -1,16 +1,41 @@
+// {
+// 	"compilerOptions": {
+// 		"target": "es5",
+// 		"module": "amd",
+// 		"sourceMap": true,
+// 		"outDir": "dist",
+// 		"baseUrl": "src",
+// 		"typeRoots": [
+// 			"node_modules/@types"
+// 		],
+// 	},
+// 	"include": [
+// 		"src/*"
+// 	],
+// 	"exclude": [
+// 		"node_modules",
+// 		"typings/main",
+// 		"typings/main.d.ts"
+// 	]
+// }
 {
+	"compileOnSave": false,
 	"compilerOptions": {
+		"outDir": "../dist/", // 注意这个路径
+		"rootDir": ".",
+		"baseUrl": "src",
+		"sourceMap": true, // 这个必须要启用，重要
+		"declaration": false,
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
 		"target": "es5",
-		"module": "amd",
-		"sourceMap": true,
-		"outDir": "dist"
-	},
-	"include": [
-		"src/*"
-	],
-	"exclude": [
-		"node_modules",
-		"typings/main",
-		"typings/main.d.ts"
-	]
+		"typeRoots": [
+			"node_modules/@types"
+		],
+		"lib": [
+			"es2016",
+			"dom"
+		]
+	}
 }
