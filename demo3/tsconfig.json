@@ -3,7 +3,7 @@
 	"compilerOptions": {
 		"outDir": "dist", // 注意这个路径
 		"rootDir": ".",
-		"baseUrl": "",
+		"baseUrl": "src",
 		"sourceMap": true, // 这个必须要启用，重要
 		"declaration": false,
 		"moduleResolution": "node",
