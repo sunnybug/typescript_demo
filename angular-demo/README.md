@@ -1,5 +1,7 @@
 ### 参考
 https://angular.io/guide/quickstart
+### 效果
+运行npm run start和debug chrome之后，可以在vscode中对ts进行断点调试，并在chrome中实时刷新
 ### 注解
 搜索 xsw:
 ### 步骤
