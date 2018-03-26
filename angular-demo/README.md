@@ -1,5 +1,7 @@
 ### 参考
 https://angular.io/guide/quickstart
+### 注解
+搜索 xsw:
 ### 步骤
 
 **安装Angular CLI**  
