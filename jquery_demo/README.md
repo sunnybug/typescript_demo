@@ -11,3 +11,8 @@ yarn
 yarn add lite-server concurrently @types/jquery@3.3.1 @types/bootstrap@4.0.0
 
 ```
+
+### 运行
+```
+npm run start
+```
