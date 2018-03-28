@@ -14,6 +14,6 @@
     ],
     "outFile": "dist/xmin.js",
     "sourceRoot": "src",
-    "outDir": "dist/src"
+    "outDir": "dist/src",
   }
 }

@@ -6,6 +6,8 @@
 	},
 	"server": {
 		"baseDir": "./",
-		"middleware": []
-	}
+		"middleware": [],
+		"index": "/dist/index.html"
+	},
+	"startPath": "/dist/index.html"
 }
