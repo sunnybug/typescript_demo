@@ -5,7 +5,7 @@
 		"ignored": "node_modules"
 	},
 	"server": {
-		"baseDir": "./dist",
+		"baseDir": "./",
 		"middleware": []
 	}
 }

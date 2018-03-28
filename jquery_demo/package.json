@@ -19,6 +19,7 @@
     "@types/bootstrap": "4.0.0",
     "@types/jquery": "3.3.1",
     "bootstrap": "^4.0.0",
+    "commonjs": "^0.0.1",
     "jquery": "^3.3.1"
   },
   "devDependencies": {
