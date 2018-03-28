@@ -1,4 +1,4 @@
-// import { PageX } from './PageX'
+/// <reference path="PageX.ts"/>
 
 class Main {
 	constructor() {
@@ -14,9 +14,10 @@ class Main {
 	}
 }
 
-let main = new Main();
-main.name = "Hello TypeScript";
-main.show(main.name);
+// let main = new Main();
+// main.name = "Hello TypeScript";
+// main.show(main.name);
 
-// let main = new PageX();
-// main.show('333')
+
+let main = new PageX();
+main.show('333')

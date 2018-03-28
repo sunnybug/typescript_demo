@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5", //defines what sort of code ts generates, es5 because it's what most browsers currently UNDERSTANDS.
-    "module": "umd",
+    "module": "amd",
     "moduleResolution": "node",
     "sourceMap": true,
     "emitDecoratorMetadata": true, //for angular to be able to use metadata we specify in our components.
@@ -12,6 +12,8 @@
       "dom",
       "es5"
     ],
-    "outDir": "dist/src",
+    "outFile": "dist/xmin.js",
+    "sourceRoot": "src",
+    "outDir": "dist/src"
   }
 }
