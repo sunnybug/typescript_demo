@@ -1,14 +1,12 @@
 /// <reference path="PageX.ts"/>
 
-interface JsonTask {
-	name: string;
-	age: number;
+class TaskRow {
+	public id: number
+	public name: string
+	public progress: number
+	public max_progress: number
 }
-
-// var main = new Main()
-// main.name = "Hello TypeScript"
-// main.show(main.name)
-function createTasks(jsonTask: JsonTask) {
+function createTasks(taskRows: Array<TaskRow>) {
 	var ul = document.createElement('ul')
 	for (var i = 0; i < 5; i++) {
 		var chkBox = document.createElement('input')
@@ -27,14 +25,13 @@ function createTasks(jsonTask: JsonTask) {
 	$divTasks.append(ul)
 }
 
-function LoadTasks() {
-	$.get("http://192.168.0.200:81/get_svrlist2?p=34&gs_group=3499", function (data, status) {
-		if (status != "success") {
-			alert(status)
-			return
-		}
 
-	})
+function LoadTasks() {
+	$.when($.get("/dist/test/my_all_task.json"), $.get("/dist/test/task_progress.json")).done(function (a1, a2) {
+		// console.info(JSON.stringify(a1[0]))
+		// console.info(JSON.stringify(a2[0]))
+
+	});
 }
 
 function onLoadTasks() {
